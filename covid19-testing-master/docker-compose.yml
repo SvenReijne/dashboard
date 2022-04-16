@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  dashboard:
+    build: .
+    container_name: dashboard
+    ports:
+      - "80:80"
+
+# Uitvoeren met commando terwijl je in het goede mapje zit: docker-compose up
+# https://github.com/docker/awesome-compose/
